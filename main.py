@@ -7,7 +7,7 @@ from common import bodys
 
 app = Flask(__name__)
 
-openai.api_key = config("OPENAI_API_KEY")
+openai.api_key = config("OPENAI_API_KEY_FOUR")
 openai.Model.list()
 
 message = bodys.example
